@@ -4,6 +4,9 @@ def main():
 
     with open(file_path) as f:
         file_contents = f.read()
-        print(file_contents)
+        
+        num_words = len(file_contents.split())
+        
+        print(num_words)
 
 main()
