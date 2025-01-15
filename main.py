@@ -23,8 +23,8 @@ def generate_report(file_path, file_contents):
     print("--- End report ---")
 
 def count_characters(text):
-    ##initialize dictionary, so that only letters are included (no numbers or interpunctuation)
     char_dict = {}
+    ##initialize dictionary, so that only letters are included (no numbers or interpunctuation) - replaced by the .isalpha check in generate_report()
     # for num in range(97, 123):
     #     char_dict[chr(num)] = 0
     
